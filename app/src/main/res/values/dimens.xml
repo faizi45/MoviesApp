@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="left_drawer_width">280dp</dimen>
+    <dimen name="dialog_width">350dp</dimen>
+    <dimen name="menu_item_height">48dp</dimen>
+    <dimen name="menu_item_icon_margin">25dp</dimen>
+
+    <!--arc menu-->
+
+    <!-- Splash -->
+
+    <!-- Login Fragment -->
+
+
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_17">17dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_70">70dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_110">110dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_140">140dp</dimen>
+    <dimen name="dimen_160">160dp</dimen>
+    <dimen name="dimen_180">180dp</dimen>
+    <dimen name="dimen_240">240dp</dimen>
+
+    <dimen name="text_size_smallest">11sp</dimen>
+    <dimen name="text_size_smaller">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_moderate">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_medium1">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="margin_pad_4">4dp</dimen>
+    <dimen name="margin_pad_12">12dp</dimen>
+    <dimen name="margin_pad_14">14dp</dimen>
+    <dimen name="margin_pad_16">16dp</dimen>
+    <dimen name="margin_pad_24">24dp</dimen>
+
+    <!--music player-->
+
+    <!--Bottom navigation text size-->
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">
+        @dimen/text_size_smallest
+    </dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">
+        @dimen/text_size_smallest
+    </dimen>
+</resources>

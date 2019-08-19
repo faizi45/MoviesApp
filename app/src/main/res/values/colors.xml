@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="textcolorLogin">#fe1846</color>
+    <color name="bg_album_selector">#99960773</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="grey_dialog">#5a6a8b</color>
+    <color name="white">#fff</color>
+
+    <color name="cc_signup_et_bg">#f1f0f0</color>
+    <color name="cc_bnv">#d83d96</color>
+    <color name="cc_black">#231f20</color>
+    <color name="cc_orange">#f79e1b</color>
+    <color name="cc_blue">#0096db</color>
+    <color name="cc_pink">#760672</color>
+    <color name="cc_text_color">#231f20</color>
+    <color name="cc_text_grey">#767576</color>
+    <color name="cc_player_grey">#767576</color>
+    <color name="cc_orane_player">#e9901b</color>
+    <color name="cc_player_minimized_bg">#f7f2f3</color>
+    <color name="cc_player_minimized_border">#7c7974</color>
+    <color name="cc_grey_mymusic">#7a7a7a</color>
+    <color name="colorControlHighlight">@color/fifty_percent_transparency_grey_400</color>
+    <color name="fifty_percent_transparency_grey_400">#80bdbdbd</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_basic">#bababa</color>
+    <color name="off_white">#55FFFFFF</color>
+
+    <color name="grey_dark">#454545</color>
+    <color name="grey">#9b9b9b</color>
+    <color name="grey_light">#bdbdbd</color>
+</resources>

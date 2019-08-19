@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_rect_white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_30">
+
+
+        <TextView
+                style="@style/robotoMedium"
+                android:includeFontPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/subscribe_to_continue"
+                android:textAllCaps="true"
+                android:textColor="#14196b"
+                android:textSize="@dimen/text_size_medium1"/>
+
+        <TextView
+                style="@style/robotoMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/free_7_day_trial_for_new_users"
+                android:textAllCaps="true"
+                android:textColor="#14196b"
+                android:textSize="@dimen/text_size_moderate"/>
+
+
+        <TextView
+                android:includeFontPadding="false"
+                android:textAppearance="@style/robotoMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/please_choose_from_the_options_below"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/dimen_30">
+
+
+            <ProgressBar
+                    android:id="@+id/pbPackages"
+                    android:layout_width="@dimen/dimen_30"
+                    android:layout_height="@dimen/dimen_30"
+                    android:layout_gravity="center"
+                    android:progressTint="@color/cc_orange"/>
+
+            <LinearLayout
+                    android:id="@+id/llPackage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/dimen_20"
+                    android:visibility="gone">
+
+                <CheckBox
+                        android:id="@+id/cbPackge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"/>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_10"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/tvPackageName"
+                            android:includeFontPadding="false"
+                            android:textAppearance="@style/robotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_medium"/>
+
+                    <TextView
+                            android:id="@+id/tvPackageDesc"
+                            android:includeFontPadding="false"
+                            android:textAppearance="@style/robotoMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_small"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:layout_marginBottom="@dimen/dimen_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+            <TextView
+                    android:id="@+id/tv_nb"
+                    android:includeFontPadding="false"
+                    android:textAppearance="@style/robotoMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_bg"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_30"
+                    android:paddingTop="@dimen/dimen_12"
+                    android:paddingRight="@dimen/dimen_30"
+                    android:paddingBottom="@dimen/dimen_12"
+                    android:text="@string/cancel"
+                    android:textColor="@color/grey_dialog"
+                    android:textSize="@dimen/text_size_small"/>
+
+            <TextView
+                    android:id="@+id/tv_pb"
+                    android:includeFontPadding="false"
+                    android:textAppearance="@style/robotoMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_10"
+                    android:background="@drawable/layout_bg_dark"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_30"
+                    android:paddingTop="@dimen/dimen_12"
+                    android:paddingRight="@dimen/dimen_30"
+                    android:paddingBottom="@dimen/dimen_12"
+                    android:text="@string/subscribe"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_small"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

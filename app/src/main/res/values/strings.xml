@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyNewsApp</string>
+
+    <string name="ok">OK</string>
+    <string name="error_uncaught">The operation could not be completed.\nSomething un-expected happened.</string>
+
+    <string name="error_label_restart">Restart Application</string>
+    <string name="guest_user_text">Please login to continue</string>
+    <string name="delete">Delete</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="login">Login</string>
+    <string name="free_7_day_trial_for_new_users">FREE 7-day trial for new users!</string>
+    <string name="subscribe_to_continue">Subscribe to Continue</string>
+    <string name="check_your_internet_connection">Check your internet connection</string>
+    <string name="switch_off_airplane_mode">Switch off Airplane mode</string>
+    <string name="allow_access_to_cellular_data">Allow access to cellular data</string>
+    <string name="allow_access">Allow Access</string>
+    <string name="try_later">Try Later</string>
+    <string name="retry">Retry</string>
+    <string name="please_choose_from_the_options_below">Please choose from the options below</string>
+
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="save_playlist">Save Playlist</string>
+
+    <string name="create_new_playlist">Create New Playlist</string>
+    <string name="hint_playlist_name">Playlist Name</string>
+    <string name="enter_playlist_name">Invalid title, Playlist name should be at​​​​ least 4 characters.</string>
+
+</resources>
