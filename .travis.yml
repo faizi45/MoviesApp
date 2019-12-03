@@ -8,19 +8,19 @@ before_script:
 
 android:
   components:
-     - tools
-     - platform-tools
+    - tools
+    - platform-tools
 
     # The SDK version used to compile your project
-     - android-27
+    - android-27
     # The BuildTools version used by your project
-     - build-tools-27.0.2
+    - build-tools-27.0.2
 
     # Additional components
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
-    
+
     # Specify at least one system image,
     # if you need to run emulator(s) during your tests
 #    - sys-img-x86-android-26
