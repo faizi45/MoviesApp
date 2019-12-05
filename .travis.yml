@@ -29,5 +29,9 @@ android:
   #  - yes | sdkmanager "platforms;android-27"
   travis encrypt "android-devs-rv:cKcHlLGUtpLKHmfrKWwvrOry" --add notifications.slack
 
-#notifications:
-#  slack: android-devs-rv:cKcHlLGUtpLKHmfrKWwvrOry
+notifications:
+  slack:
+    android-devs-rv:cKcHlLGUtpLKHmfrKWwvrOry
+    template:
+        - "%{repository_slug} (%{commit}): %{message}"
+          - "Build details: %{build_url}"
