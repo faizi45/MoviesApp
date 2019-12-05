@@ -20,7 +20,11 @@ android:
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
-
+notifications:
+  slack:
+    rooms:
+      - android-devs-rv:cKcHlLGUtpLKHmfrKWwvrOry#movies-app
+    on_success: always
     # Specify at least one system image,
     # if you need to run emulator(s) during your tests
 #    - sys-img-x86-android-26
