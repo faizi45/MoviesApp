@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyNewsApp</string>
+    <string name="app_name">Movies App</string>
 
     <string name="ok">OK</string>
     <string name="error_uncaught">The operation could not be completed.\nSomething un-expected happened.</string>
